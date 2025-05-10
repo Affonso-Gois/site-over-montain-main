@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Lexend", sans-serif;
+    @font-face {
+        font-family: "Newton Howard Font";
+        src: url(img/Newton Howard Font.otf);
+    }
+}
+body{
+    background-color: black;
+}
+.img-logo{
+   width: 5vw;
+   margin-left:1vw ;
+  
+}
+h1{
+    margin-left: 2vw;
+    font-family: "Newton Howard Font";
+    color: black;
+    font-size: 40px;
+    margin-top: -10px;
+}
+span{
+    font-family: "Newton Howard Font";
+    color: #00FF00;
+    font-size: 45px;
+}
+.box-button{
+    margin-left: 40%;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.button-header{
+    margin-left: 0.1vw;
+    outline: none;
+    cursor: pointer;
+    transition: .2s ease-out;
+    border: none;
+    background-color: transparent;
+    color:#57ff57;
+    font-family: "Lexend", sans-serif;
+    font-size: 17px;
+    font-weight: 200;
+    
+   
+}
+.button-header:hover{
+    color: #ffffff;
+    transition: .2s ease-in;  
+}
+header{
+    display: flex;
+    align-items: center;
+    background-color: #2F5233; 
+}
+.preojeto_img{
+       width: 80px;
+       margin-left: 20px;
+}
+.preojeto_img2{
+    width: 40px;
+    justify-content: center;
+    margin-left: 10px;
+    opacity: .7;
+   
+}
+.imagemprojeto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.container-image{
+    background-image: url(./img/rapel.png);
+    background-size: contain;
+    height: 450px;
+}
+h2{
+    font-family: "Lexend", sans-serif; 
+    font-size: 28px;
+    font-weight: 300;
+    color: white;
+    text-align: center; 
+    line-height:45px;
+}
+.letra-bold{
+    font-family: "Lexend", sans-serif; 
+    font-size: 35px;
+    font-weight: 600;
+    color: white; 
+}
+.letra-preta{
+    color: black;
+    text-shadow: 0 0 5px #00FF00;
+    -webkit-text-stroke-width: .1px;
+    -webkit-text-stroke-color: #00FF00;
+    font-weight: 800;
+    
+}
+
+/* edição serviços */
+
+ul{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 20px;
+    flex-direction: column;
+    gap: 10px;
+}
+.ul-image{
+    width:300px ;
+    border-radius: 20px;
+    border: transparent;
+}
+.ul-image:hover{
+    box-shadow:0 0px 20px 2px #ffffff;
+}
+p{
+    margin-top: 10px;
+    color: #ffffff;
+    text-align: center;
+}
+.button-li{
+    color: #ffffff;
+    background-color:#2F5233;
+    margin-bottom: 10px;
+    margin-top:10px ;
+    border: transparent 1px;
+    border-radius: 10px;
+    width: 170px;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+}
+.button-li:hover{
+    border:solid 1px #00FF00;
+    box-shadow: 0 0 10px #00FF00;
+    border: 1px solid #57ff57;
+    transition: .2s ease-in;  
+}
+
+.projeto_social_img{
+    width: 500px;
+}
+
