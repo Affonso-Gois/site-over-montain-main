@@ -157,6 +157,36 @@ p{
 }
 
 .projeto_social_img{
-    width: 500px;
+    width: 250px;
+    margin-top: 40px;
 }
 
+h3{
+    font-family: "Lexend", sans-serif; 
+    font-size: 17px;
+    font-weight: 200;
+    color: white;
+   text-align: center;
+    line-height:30px; 
+    padding: 40px;
+}
+.span_projeto{
+    font-family: "Lexend", sans-serif; 
+    font-weight: 300;
+    font-size: 18px;
+    color: aqua;
+
+}
+
+.section_projeto{
+    width: 77vw;
+    min-height: 1000px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2f52339a;
+}
