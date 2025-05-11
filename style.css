@@ -9,7 +9,7 @@
     }
 }
 body{
-    background-color: black;
+    background-color:#000000;
 }
 .img-logo{
    width: 5vw;
@@ -179,14 +179,28 @@ h3{
 }
 
 .section_projeto{
-    width: 77vw;
-    min-height: 1000px;
+    width: 45vw;
     border-radius: 20px;
-    margin-left: auto;
-    margin-right: auto;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: #2f52339a;
+}
+
+.foto_projeto{
+    border-radius: 20px;
+    width: 300px;
+}
+
+.img_projeto{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 300px 300px 300px;
+    gap:10px
+
+
+}
+.div_projeto{
+    display: flex;
+    justify-content: space-evenly;
 }
