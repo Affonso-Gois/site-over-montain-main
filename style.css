@@ -203,4 +203,5 @@ h3{
 .div_projeto{
     display: flex;
     justify-content: space-evenly;
+    margin-top: 50px;
 }
